@@ -29,7 +29,7 @@ def main() -> None:
     value = 0
     for function in functions:
         value = function(value)
-    logger.info("pipeline result=%s", value)
+    logger.warning("pipeline completed result=%s", value)
 
 
 if __name__ == "__main__":
