@@ -4,5 +4,5 @@ logger = logging.getLogger(__name__)
 
 
 def function_07(value: int) -> int:
-    logger.info("function_07 received value=%s", value)
+    logger.debug("function_07 processing value=%s", value)
     return value + 7
